@@ -1,0 +1,679 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width , initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+<title>css</title>
+<style>
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:'Times New Roman' ,sans-serif;
+    text-align: center;
+}
+.feature2{
+    width: 100%;
+    padding: 50px 70px;
+    margin:0;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text2 p{
+    margin: auto;
+    font-size: 50px;
+    color: #009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+     text-align: center;
+}
+    .container{
+    align-items: center;
+        margin-left: 42px;
+    }
+.quote{
+    width: 1200px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 2;
+     align-items: center;
+     margin-left: -50px;
+}
+.quote .box{
+    position: relative;
+    width: 360px;
+    height: 270px;
+ align-items: center;
+    background: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: -10px 20px 20px rgba(0,0,0,.2);
+}
+.quote .box:hover
+{
+  box-shadow: -20px 50px 100px rgba(0,0,0,.2);  
+}
+
+.quote .box p{
+    margin:0;
+    padding: 35px;
+    font-size: 18px;
+
+}
+.quote .box:hover p{
+    color: #fff;
+}
+.quote .box h2{
+    position: absolute;
+    top: 65px;
+    right: 95Px;
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+
+}
+.quote .box:hover h2{
+    color: #fff;
+}
+.quote .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;    
+    transition: 0.5s;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+}
+.quote .bg .i.fas{
+    font-size: 80px;
+}
+#logo1{
+    font-size: 30px;}
+#logo2{
+    font-size: 30px;
+}
+#logo3{
+    font-size: 30px;
+}
+.quote .box.box1:hover
+{
+ opacity: 1;
+ background: linear-gradient(#03A9F4,#E91E63);
+}
+.quote .box.box2:hover
+{
+ opacity: 1;
+ background: linear-gradient(#FFC107,#19fd36);
+}
+.quote .box.box3:hover
+{
+ opacity: 1;
+background: linear-gradient(#FFC107,#E91E63);
+
+}
+}
+@media screen and (max-width:1200px)
+{
+ .feature2{
+     margin:0;
+     width:100%;
+ }  
+
+.title-text2{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.title-text2 p{
+   
+    font-size: 50px;
+   
+}
+.quote{
+    padding: 10px;
+   
+    width: 1000px;
+    min-height: 400px;
+   
+}
+.quote .box{
+   
+    width: 320px;
+    height: 300px;
+   
+}
+
+.quote .box p{
+    padding: 30px;
+    font-size: 20px;
+
+}
+.quote .box h2{
+    font-size:18px;
+    top: 60px;
+    right: 80px;
+}
+
+#logo1{
+    font-size: 25px;}
+#logo2{
+    font-size: 25px;
+}
+#logo3{
+    font-size: 25px;
+}
+}
+@media screen and (max-width: 1026px){
+    
+
+.feature2{
+    width: 100%;
+    margin:0;
+    padding: 50px 70px;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.title-text2 p{
+    font-size: 30px;
+    top: -20px;
+   
+}
+.quote{
+    width: 800px;
+   padding: 10px;
+ 
+}
+.quote .box{
+    padding: 10px;
+    bottom: 30px;
+    right: 10px;
+    left: 25px;
+    width: 250px;
+    height: 270px;
+   
+}
+.quote .box p{
+    padding: 30px;
+    font-size: 18px;
+
+}
+.quote .box h2{
+    font-size:18px;
+    top: 35px;
+    right: 50px;
+}
+
+#logo1{
+    font-size: 20px;}
+#logo2{
+    font-size: 20px;
+}
+#logo3{
+    font-size: 20px;
+}
+   
+}
+
+@media screen and (max-width:990px)
+{
+       
+   
+
+.feature2{
+    width: 100%;
+    margin:0;
+    padding: 50px 70px;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.title-text2 p{
+    font-size: 30px;
+    top: -20px;
+   
+}
+.quote{
+    width: 800px;
+   padding: 10px;
+ 
+}
+.quote .box{
+    padding: 10px;
+    bottom: 30px;
+    right: 10px;
+    left: 10px;
+    width: 250px;
+    height: 270px;
+   
+}
+.quote .box p{
+    padding: 30px;
+    font-size: 18px;
+
+}
+.quote .box h2{
+    font-size:18px;
+    top: 35px;
+    right: 50px;
+}
+
+#logo1{
+    font-size: 20px;}
+#logo2{
+    font-size: 20px;
+}
+#logo3{
+    font-size: 20px;
+}
+   
+
+}
+
+
+@media screen and (max-width: 770px){
+    
+.feature2{
+    width: 100%;
+   margin:0;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 8px;
+}
+.title-text2 p{
+    font-size: 30px;
+    top: -28px;
+   
+}
+.quote{
+    width: 650px;
+   padding: 1px;
+}
+.quote .box{
+    
+    margin-right: 12px;
+    padding: 1px;
+   height: 200px;
+    bottom: 80px;
+    left: -20px;
+    width: 185px;
+   
+   
+}
+.quote .box p{
+    padding: 25px;
+    font-size: 15px;
+
+}
+.quote .box h2{
+    font-size:12px;
+    top: 25px;
+    right: 45px;
+}
+
+#logo1{
+    font-size: 18px;}
+#logo2{
+    font-size: 18px;
+}
+#logo3{
+    font-size: 18px;
+}
+}
+}
+
+@media screen and (max-width:640px)
+{
+.feature2{
+    width: 100%;
+   margin:0;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 8px;
+}
+.title-text2 p{
+    font-size: 30px;
+    top: -28px;
+   
+}
+.quote{
+    width: 550px;
+   padding: 1px;
+}
+.quote .box{
+    margin-right: 12px;
+    padding: 1px;
+   height: 200px;
+    bottom: 35px;
+    left: -50px;
+    width: 150px;
+   
+   
+}
+.quote .box p{
+    padding: 20px;
+    font-size: 12px;
+
+}
+.quote .box h2{
+    font-size:12px;
+    top: 25px;
+    right: 35px;
+}
+
+#logo1{
+    font-size: 18px;}
+#logo2{
+    font-size: 18px;
+}
+#logo3{
+    font-size: 18px;
+}
+}
+@media screen and (max-width: 540px){
+   
+.feature2{
+    width: 100%;
+   margin:0;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 8px;
+}
+.title-text2 p{
+    font-size: 30px;
+    top: -28px;
+   
+}
+.quote{
+    width: 550px;
+   padding: 1px;
+}
+.quote .box{
+    margin-right: 29px;
+     padding: 1px;
+   height: 220px;
+    bottom: 35px;
+   
+    left: -20px;
+    width: 150px;
+   
+   
+}
+.quote .box p{
+    padding: 20px;
+    font-size: 13px;
+
+}
+.quote .box h2{
+    font-size:12px;
+    top: 25px;
+    right: 35px;
+}
+
+#logo1{
+    font-size: 18px;}
+#logo2{
+    font-size: 18px;
+}
+#logo3{
+    font-size: 18px;
+}
+}
+
+
+@media screen and (max-width:440px)
+{
+   
+
+.feature2{
+    width: 100%;
+    margin:0;
+    padding: 50px 50px;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.title-text2 p{
+    font-size: 30px;
+    top: -20px;
+   
+}
+.quote{
+    width: 1000px;
+    min-height: 400px;
+   padding: 20px;
+   display: inline;
+    flex-wrap: nowrap;
+}
+.quote .box{
+    margin: 10px;
+    padding: 10px;
+    bottom: 55px;
+    width: 300px;
+    height: 250px;
+   
+}
+.quote .box p{
+    padding: 35px;
+    font-size: 17px;
+
+}
+.quote .box h2{
+    font-size:15px;
+    top: 55px;
+    right: 100px;
+}
+
+#logo1{
+    font-size: 25px;}
+#logo2{
+    font-size: 25px;
+}
+#logo3{
+    font-size: 25px;
+}
+
+}
+
+@media screen and (max-width:360px){
+ 
+.feature2{
+    margin: 0;
+    width: 100%;
+
+}
+
+.title-text2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.title-text2 p{
+    font-size: 25px;
+    top: -25px;
+    right:20px;
+   
+}
+.quote{
+   
+   display: inline;
+    flex-wrap: nowrap;
+   
+}
+.quote .box{
+    margin: 15px;
+    width: 280px;
+    height: 200px;
+     margin-left: 10px;
+}
+.quote .box p{
+    padding: 35px;
+    font-size: 15px;
+}
+.quote .box h2{
+    font-size:12px;
+    top: 40px;
+    right: 90px;
+}
+
+#logo1{
+    font-size: 16px;}
+#logo2{
+    font-size: 16px;
+}
+#logo3{
+    font-size: 16px;
+}
+ 
+
+}
+@media screen and (max-width:325px){
+.feature2{
+    width: 100%;
+    margin: 0;
+}
+.title-text2 p{
+    font-size: 25px;
+    top: -25px;
+    right:12px;
+   
+}
+.quote{
+   
+   display: inline;
+    flex-wrap: nowrap;
+   
+}
+.quote .box{
+    margin: 15px;
+    width: 280px;
+    height: 200px;
+     margin-left: 40px;
+}
+.quote .box p{
+    padding: 30px;
+    font-size: 15px;
+}
+.quote .box h2{
+    font-size:12px;
+    top: 40px;
+    right: 90px;
+}
+
+}
+@media screen and (max-width:250px){
+   
+.feature2{
+    width: 100%;
+    margin: 0;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.title-text2 p{
+    font-size: 20px;
+    top: -20px;
+    left: 10px;
+   
+}
+.quote{
+    width: 1000px;
+    min-height: 400px;
+   padding: 20px;
+   display: inline;
+    flex-wrap: nowrap;
+   
+}
+.quote .box{
+    margin: 10px;
+    padding: 10px;
+    bottom: 55px;
+    width: 200px;
+    height: 200px;
+     margin-left: 50px;
+
+}
+.quote .box p{
+    padding: 25px;
+    font-size: 13px;
+}
+.quote .box h2{
+    font-size:12px;
+    top: 35px;
+    right: 60px;
+}
+
+#logo1{
+    font-size: 13px;}
+#logo2{
+    font-size: 13px;
+}
+#logo3{
+    font-size: 13px;
+}
+ 
+}
+</style>
+</head>
+<body>
+<section class="feature2">
+ <div class="title-text2">
+ <p>FEATURES</p>
+ </div>
+ <div class="container">
+<div class="quote">
+<div>
+<div class="box box1"><i class="fa fa-tree" id="logo1"></i>
+<p>The eco friendly bags are mostly made materials
+that are easy to get decomposed by the
+bacteria and other microorganisms.</p>
+<h2>ECO-FRIENDLY</h2>
+</div>
+<div class="bg"></div>
+</div>
+<div>
+<div class="box box2"><i class="fa fa-thermometer-quarter" id="logo2"></i>
+<p>These kraft paper bags are excellent for packing food (even hot) that will stay fresh till you eat.
+The reason for this is they have air pores that help in circulating air
+</p>
+<h2>PRESERVATION</h2>
+</div>
+<div class="bg"></div>
+</div>
+<div>
+<div class="box box3"><i class="fa fa-child" id="logo3"  ></i>
+<p>They are
+extracted from a solution that is unbleached and
+recycled from brown  paper so that crucial natural
+resources and greenhouse emissions can be reduced.
+   </p>
+   <h2>SAVE FUTURE</h2>
+</div>
+<div class="bg"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
